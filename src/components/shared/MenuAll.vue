@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
     <v-toolbar dense data-app>
       <v-toolbar-title>
       <v-avatar>
@@ -9,10 +8,6 @@
         >
     </v-avatar>
       </v-toolbar-title>
-=======
-    <v-toolbar dense data-app fixed>
-      <v-toolbar-title><img src="https://cdn-icons-png.flaticon.com/512/521/521964.png" /></v-toolbar-title>
->>>>>>> 19893c7220a5832cf3cd7226ba05edc5becaaa6c
 
       <v-spacer></v-spacer>
 

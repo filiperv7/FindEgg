@@ -1,12 +1,7 @@
 <template>
   <div class="tela-login">
-<<<<<<< HEAD
     <v-app >
       <v-container >
-=======
-    <v-app>
-   <v-container>  
->>>>>>> 19893c7220a5832cf3cd7226ba05edc5becaaa6c
 
        
         <div class="principal rounded-lg px-5 py-5">

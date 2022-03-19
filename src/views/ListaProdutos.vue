@@ -22,9 +22,9 @@
         </v-list-item-avatar>
       </v-list-item>
       <v-card-actions>
-        <v-route-link to="/produto/produto.id">
+        <router-link :to="{ name: 'produto', params: { id: produto.id } }">
           <v-btn outlined rounded text> Ver </v-btn>
-        </v-route-link>
+        </router-link>
       </v-card-actions>
     </v-card>
   </div>
@@ -52,3 +52,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+a {
+  text-decoration: none;
+}
+</style>

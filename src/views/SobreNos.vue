@@ -1,13 +1,15 @@
 <template>
-  <div>
+<v-app>
+  <v-container>
+  <div class="sobreNos">
     <!-- Jonas -->
-    <p class="titulo">Sobre o FindEgg</p>
+    <h2>Sobre o FindEgg</h2>
     <p class="texto">Devido à pandemia de Covid-19, muitas famílias entraram em dificuldades econômicas e começaram a buscar opções de negócios caseiros para sobreviver. Assim, surgiram opções baratas de produtos e serviços caseiros que tinham pouco alcance, entre eles os ovos de Páscoa artesanais. Por outro lado, diversos ovos de Páscoa comerciais experimentaram uma alta nos preços. Tento isso em vista, criamos o FindEgg visando então ajudar essas famílias a alcançar um público maior, e ao mesmo tempo apresentar às pessoas alternativas mais baratas e diversas de ovos de Páscoa.</p>
 
   </div>
   <div>
     
-    <p class="titulo">Quem somos</p>
+    <h3>Quem somos</h3>
     <p class="texto">Time 22 Hackaton Decola Luna <br>
 
 Antonieta Naomi Bazan<br>
@@ -18,13 +20,9 @@ Pedro Henrick Queiroz Alves<br>
 </p>
 
   </div>
-  <div>
-    <p class="titulo">Feito com:</p>
-
-
-    
-  </div>
   
+  </v-container>
+  </v-app>
 </template>
 
 <script>
@@ -34,6 +32,10 @@ Pedro Henrick Queiroz Alves<br>
 </script>
 
 <style scoped>
-  
+.sobreNos a{
+  display: flex;
+  text-align: center;
 
+}
+  
 </style>

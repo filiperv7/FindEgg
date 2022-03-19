@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import TelaInicial from '../views/TelaInicial.vue'
-import ListaFornecedores from '../views/ListaFornecedores'
-import TelaCadastro from '../views/TelaCadastro'
+import ListaProdutos from '../views/ListaProdutos'
 import SobreNos from '../views/SobreNos'
-import TelaFornecedor from '../views/TelaFornecedor'
+import TelaCadastro from '../views/TelaCadastro'
+import TelaInicial from '../views/TelaInicial.vue'
 import TelaLogin from '../views/TelaLogin'
+import TelaProduto from '../views/TelaProduto'
 
 Vue.use(VueRouter)
 
@@ -16,9 +16,9 @@ const routes = [
     component: TelaInicial
   },
   {
-    path: '/fornecedores',
-    name: 'fornecedores',
-    component: ListaFornecedores
+    path: '/produtos',
+    name: 'produtos',
+    component: ListaProdutos
   },
   {
     path: '/cadastro',
@@ -31,9 +31,9 @@ const routes = [
     component: SobreNos
   },
   {
-    path: '/fornecedor',
-    name: 'fornecedor',
-    component: TelaFornecedor
+    path: '/produto/:id',
+    name: 'produto',
+    component: TelaProduto
   },
   {
     path: '/login',

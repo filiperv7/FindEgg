@@ -1,6 +1,10 @@
 <template>
   <v-app>
+<<<<<<< HEAD
     <router-view/>
+=======
+    <router-view />
+>>>>>>> feature/pedro
   </v-app>
 </template>
 
@@ -12,5 +16,8 @@
   text-align: center;
   color: #2c3e50;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> feature/pedro
 </style>

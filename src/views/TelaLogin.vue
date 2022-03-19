@@ -1,5 +1,5 @@
 <template>
-  <div class="tela-cadastro">
+  <div class="tela-login">
     <v-app >
       <v-container >
 

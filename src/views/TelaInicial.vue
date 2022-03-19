@@ -21,19 +21,15 @@
       </div>
     </div>
 
-    <buttom-dark></buttom-dark>
     
   </div>
 </template>
 
 <script>
-import ButtomDark from '@/components/shared/ButtomDark.vue'
 
 export default {
   name: 'TelaInicial',
-  components: {
-    ButtomDark,
-    
+  components: {    
   }
 }
 </script>
@@ -45,19 +41,20 @@ export default {
     font-size: 50px;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   .container {
     height: 100vh;
 
     display: flex;
     flex-direction: column;
-    gap: 5;
   }
 
   div > .buttons {
     display: flex;
     justify-content: center;
 
-    text-decoration: none;
   }
-
 </style>

@@ -1,7 +1,7 @@
 <template>
-  <div class="tela-cadastro">
-    <v-app >
-      <v-container >
+  <div class="tela-login">
+    <v-app>
+   <v-container>  
 
        
         <div class="principal rounded-lg px-5 py-5">
@@ -68,7 +68,7 @@
           <v-btn color="yellow lighten-2" class="mr-4" @click="reset"> Limpar </v-btn>
         </v-form>
         </div>
-      </v-container>
+     </v-container>
     </v-app>
   </div>
 </template>

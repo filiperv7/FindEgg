@@ -11,7 +11,7 @@
         </v-btn>
       </router-link>
 
-    <router-link to="/sobrenos">
+    <router-link to="/sobre">
       <v-btn class="botoes">
           <span>Sobre nós</span>
         

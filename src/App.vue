@@ -1,12 +1,25 @@
 <template>
   <v-app>
-<<<<<<< HEAD
-    <router-view/>
-=======
-    <router-view />
->>>>>>> feature/pedro
+    <menu-all></menu-all>
+    <main>
+      <router-view/>
+    </main>
+      <bottom-bar></bottom-bar>
   </v-app>
 </template>
+
+<script>
+import MenuAll from '@/components/shared/MenuAll.vue'
+import BottomBar from '@/components/shared/BottomBar.vue'
+
+export default {
+  components: {
+    MenuAll,
+    BottomBar
+  }
+}
+</script>
+
 
 <style lang="scss">
 #app {
@@ -16,8 +29,4 @@
   text-align: center;
   color: #2c3e50;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> feature/pedro
 </style>

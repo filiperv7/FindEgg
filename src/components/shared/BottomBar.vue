@@ -1,7 +1,7 @@
 <template>
-  <div class="bottom-bar">
+  <div class="bottom-bar" data-app>
     <!-- Naomi -->
-    <v-bottom-navigation :value="value" color="teal" active-class="white" grow absolute>
+    <v-bottom-navigation :value="value" color="teal" active-class="white" grow fixed>
   
       <router-link to="/">
         <v-btn class="botoes">

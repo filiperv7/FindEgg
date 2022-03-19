@@ -1,7 +1,6 @@
 <template>
   <div class="home" data-app>
     <!-- Filipe -->
-    <menu-all></menu-all>
   
     <div class="container">
       
@@ -10,38 +9,30 @@
       <p>Os melhores fornecedores e ótimos preços</p>
 
       <div class="buttons">
-        <v-btn
-          class="ma-2"
-          outlined
-          color="indigo">
-          Quero Vender!
-        </v-btn>
+        <router-link to="/cadastro">
+          <v-btn
+            class="ma-2"
+            outlined
+            color="indigo">
+            Cadastre-se
+          </v-btn>
+        </router-link>
 
-        <v-btn
-          class="ma-2"
-          outlined
-          color="indigo">
-          Quero Comprar!
-        </v-btn>
       </div>
     </div>
 
     <buttom-dark></buttom-dark>
-    <bottom-bar></bottom-bar>
+    
   </div>
 </template>
 
 <script>
-import BottomBar from '@/components/shared/BottomBar.vue'
 import ButtomDark from '@/components/shared/ButtomDark.vue'
-import MenuAll from '@/components/shared/MenuAll.vue'
 
 export default {
   name: 'TelaInicial',
   components: {
-    BottomBar,
     ButtomDark,
-    MenuAll
     
   }
 }
@@ -66,6 +57,7 @@ export default {
     display: flex;
     justify-content: center;
 
+    text-decoration: none;
   }
 
 </style>
